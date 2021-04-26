@@ -14,6 +14,7 @@
           "Entities": "1.0.0",
           "FluentValidation": "9.5.3",
           "NETStandard.Library": "2.0.3",
+          "Ninject": "3.2.2",
           "PostSharp": "4.2.17"
         },
         "runtime": {
@@ -343,6 +344,14 @@
           "lib/netstandard2.0/NHibernate.dll": {
             "assemblyVersion": "5.3.0.0",
             "fileVersion": "5.3.7.0"
+          }
+        }
+      },
+      "Ninject/3.2.2": {
+        "runtime": {
+          "lib/net45-full/Ninject.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.2.0"
           }
         }
       },
@@ -1619,6 +1628,13 @@
       "sha512": "sha512-eawJB7IrM5ZVc/zb9eOwU0CZBuK5dtUfmo45JG0tTm0bg/stL0uOPIjl/HlJyP1GLDOTFvWvZ/as0niTe/YgLw==",
       "path": "nhibernate/5.3.7",
       "hashPath": "nhibernate.5.3.7.nupkg.sha512"
+    },
+    "Ninject/3.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vDyKaDZ1RgmPxD87u3om3La34r4RHBZfap3tCsJtUbSGkIWjQJ8La1s61BR/C0LgO1+3xGEC6UfI7D594MNl5Q==",
+      "path": "ninject/3.2.2",
+      "hashPath": "ninject.3.2.2.nupkg.sha512"
     },
     "PostSharp/4.2.17": {
       "type": "package",

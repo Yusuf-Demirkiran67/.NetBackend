@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VFGUzUApVFsx+8UdK1YjIdnLQxbVCW8m5AuFLGAktC0wLBOW6KPfkYqpsyK/gGV0dmDH++IqT3DH9Wzbqxg+PA==",
+  "dgSpecHash": "HzlE17394hcGucZi1X/fxR5ddq0oC6k/78YJN6mO0ydMs0uMqcIRz9mwcX9pvUc8KEU4ffbGxj57q+zrbxWqfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Backend\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\nhibernate\\5.3.7\\nhibernate.5.3.7.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\ninject\\3.2.2\\ninject.3.2.2.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\postsharp\\4.2.17\\postsharp.4.2.17.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\remotion.linq.eagerfetching\\2.2.0\\remotion.linq.eagerfetching.2.2.0.nupkg.sha512",
@@ -128,6 +129,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ninject 3.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Ninject",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

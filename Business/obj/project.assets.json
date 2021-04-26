@@ -414,6 +414,15 @@
           "lib/netstandard2.0/NHibernate.dll": {}
         }
       },
+      "Ninject/3.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/Ninject.dll": {}
+        }
+      },
       "PostSharp/4.2.17": {
         "type": "package",
         "compile": {
@@ -2696,6 +2705,35 @@
         "nhibernate-mapping.xsd",
         "nhibernate.5.3.7.nupkg.sha512",
         "nhibernate.nuspec"
+      ]
+    },
+    "Ninject/3.2.2": {
+      "sha512": "vDyKaDZ1RgmPxD87u3om3La34r4RHBZfap3tCsJtUbSGkIWjQJ8La1s61BR/C0LgO1+3xGEC6UfI7D594MNl5Q==",
+      "type": "package",
+      "path": "ninject/3.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Ninject.dll",
+        "lib/net35/Ninject.xml",
+        "lib/net40/Ninject.dll",
+        "lib/net40/Ninject.xml",
+        "lib/net45-full/Ninject.dll",
+        "lib/net45-full/Ninject.xml",
+        "lib/sl2/Ninject.dll",
+        "lib/sl2/Ninject.xml",
+        "lib/sl3-wp/Ninject.dll",
+        "lib/sl3-wp/Ninject.xml",
+        "lib/sl3/Ninject.dll",
+        "lib/sl3/Ninject.xml",
+        "lib/sl4-windowsphone71/Ninject.dll",
+        "lib/sl4-windowsphone71/Ninject.xml",
+        "lib/sl4/Ninject.dll",
+        "lib/sl4/Ninject.xml",
+        "lib/sl5/Ninject.dll",
+        "lib/sl5/Ninject.xml",
+        "ninject.3.2.2.nupkg.sha512",
+        "ninject.nuspec"
       ]
     },
     "PostSharp/4.2.17": {
@@ -6615,6 +6653,7 @@
       "Entities >= 1.0.0",
       "FluentValidation >= 9.5.3",
       "NETStandard.Library >= 2.0.3",
+      "Ninject >= 3.2.2",
       "PostSharp >= 4.2.17"
     ]
   },
@@ -6681,6 +6720,10 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
+          "Ninject": {
+            "target": "Package",
+            "version": "[3.2.2, )"
+          },
           "PostSharp": {
             "target": "Package",
             "version": "[4.2.17, )"
@@ -6701,6 +6744,16 @@
     }
   },
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ninject 3.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Ninject",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

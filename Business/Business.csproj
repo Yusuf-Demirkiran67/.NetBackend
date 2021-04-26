@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="9.5.3" />
+    <PackageReference Include="Ninject" Version="3.2.2" />
     <PackageReference Include="PostSharp" Version="4.2.17" />
   </ItemGroup>
 
