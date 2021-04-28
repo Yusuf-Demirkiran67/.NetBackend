@@ -11,7 +11,8 @@ using Core.Aspects.Postsharp;
 using Core.DataAccess;
 using Core.Aspects.Postsharp.ValidationAspect;
 using Core.Aspects.Postsharp.TransactionAspect;
-
+using Core.Aspects.Postsharp.CacheAspect;
+using Core.CrossCuttingConcerns.Caching.Microsoft;
 namespace Business.Concrete.Managers
 {
     public class ProductManager : IProductService
@@ -24,6 +25,7 @@ namespace Business.Concrete.Managers
             _productDal = productDal;
            
         }
+        [CacheRemoveAspect(typeof(MemoryCacheManager))]
         [FluentValidationAspect(typeof(ProductValidatior))]
         public Product Add(Product product)
         {
@@ -34,7 +36,7 @@ namespace Business.Concrete.Managers
         {
             throw new NotImplementedException();
         }
-
+       
         public List<Product> GetAll()
         {
             return _productDal.GetList();
