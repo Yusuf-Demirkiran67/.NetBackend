@@ -13,6 +13,9 @@ using Core.Aspects.Postsharp.ValidationAspect;
 using Core.Aspects.Postsharp.TransactionAspect;
 using Core.Aspects.Postsharp.CacheAspect;
 using Core.CrossCuttingConcerns.Caching.Microsoft;
+using Core.CrossCuttingConcerns.Logging.Log4Net.Loggers;
+using Core.Aspects.Postsharp.LogAspect;
+
 namespace Business.Concrete.Managers
 {
     public class ProductManager : IProductService
@@ -36,7 +39,7 @@ namespace Business.Concrete.Managers
         {
             throw new NotImplementedException();
         }
-       
+       [LogAspect(typeof(DatabaseLogger))]
         public List<Product> GetAll()
         {
             return _productDal.GetList();

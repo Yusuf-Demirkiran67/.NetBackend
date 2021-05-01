@@ -112,3 +112,5 @@ C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\FluentValidation.dl
 C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\PostSharp.dll
 C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\FluentValidation.xml
 C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\PostSharp.xml
+C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\log4net.dll
+C:\Users\DELL\source\repos\Backend\DataAccessTests\bin\Debug\log4net.xml

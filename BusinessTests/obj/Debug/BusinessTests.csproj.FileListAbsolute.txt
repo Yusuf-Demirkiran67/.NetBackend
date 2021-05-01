@@ -81,3 +81,7 @@ C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\Microsoft.Extensions.
 C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\System.Memory.xml
 C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\System.Buffers.xml
+C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\log4net.dll
+C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\log4net.xml
+C:\Users\DELL\source\repos\Backend\BusinessTests\bin\Debug\Newtonsoft.Json.xml

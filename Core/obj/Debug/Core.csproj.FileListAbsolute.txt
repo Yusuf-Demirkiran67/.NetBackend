@@ -100,3 +100,5 @@ C:\Users\DELL\source\repos\Backend\Core\bin\Debug\FluentValidation.xml
 C:\Users\DELL\source\repos\Backend\Core\bin\Debug\PostSharp.xml
 C:\Users\DELL\source\repos\Backend\Core\bin\Debug\Core.pssym
 C:\Users\DELL\source\repos\Backend\Core\obj\Debug\Core.dll.postsharp
+C:\Users\DELL\source\repos\Backend\Core\bin\Debug\log4net.dll
+C:\Users\DELL\source\repos\Backend\Core\bin\Debug\log4net.xml

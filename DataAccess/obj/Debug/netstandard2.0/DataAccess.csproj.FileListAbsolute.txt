@@ -17,3 +17,7 @@ C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\FluentVal
 C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\PostSharp.dll
 C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\FluentValidation.xml
 C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\PostSharp.xml
+C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\log4net.dll
+C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\log4net.xml
+C:\Users\DELL\source\repos\Backend\DataAccess\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
